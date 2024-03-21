@@ -22,7 +22,7 @@ function Accordion () {
     }
 
     return(
-        <div className='container'>
+        <div className='accordioncontainer'>
             <div className='Accordian'></div>
             <button onClick={()=>setenablemultiple(!enablemultiple)} className='toggleButton'>Click to enable multiple selection</button>
                 {
