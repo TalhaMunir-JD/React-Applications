@@ -1,0 +1,20 @@
+.TopContainer{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.Progressbarcontainer{
+    height: 10px;
+    width: 100%;
+    background: #cf7722;
+}
+
+.ProgressBar{
+    width: 0%;
+    height: 10px;
+    background: purple;
+}
