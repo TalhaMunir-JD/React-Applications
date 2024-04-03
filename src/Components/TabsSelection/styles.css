@@ -1,0 +1,27 @@
+.Wrapper{
+    padding: 8px;
+}
+
+.TabsContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.tabitem{
+    display: inline-flex;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-align: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: gray;
+}
+
+.tabitem.active{
+    background: purple;
+    
+    color: white;
+}
