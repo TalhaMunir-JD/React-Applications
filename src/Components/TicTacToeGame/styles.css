@@ -1,0 +1,22 @@
+.TicTacToe-Container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.row{
+    
+}
+
+.square{
+    padding: 10px;
+    float: left;
+    width: 130px;
+    height: 130px;
+    border: 1px solid red;
+    text-align: center;
+    cursor: pointer;
+    font-size: xx-large;
+    /* background-color: gray; */
+}
